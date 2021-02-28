@@ -1,0 +1,14 @@
+F:\rabochiy stol\Dima\Škola\3. rocnik\PVA\DÚ\Robot\Robot\obj\Debug\Robot.csprojAssemblyReference.cache
+F:\rabochiy stol\Dima\Škola\3. rocnik\PVA\DÚ\Robot\Robot\obj\Debug\Robot.csproj.CoreCompileInputs.cache
+F:\rabochiy stol\Dima\Škola\3. rocnik\PVA\DÚ\Robot\Robot\bin\Debug\Robot.exe.config
+F:\rabochiy stol\Dima\Škola\3. rocnik\PVA\DÚ\Robot\Robot\bin\Debug\Robot.exe
+F:\rabochiy stol\Dima\Škola\3. rocnik\PVA\DÚ\Robot\Robot\bin\Debug\Robot.pdb
+F:\rabochiy stol\Dima\Škola\3. rocnik\PVA\DÚ\Robot\Robot\obj\Debug\Robot.exe
+F:\rabochiy stol\Dima\Škola\3. rocnik\PVA\DÚ\Robot\Robot\obj\Debug\Robot.pdb
+F:\rabochiyStol\Dima\Škola\3.rocnik\PVA\DÚ\Robot\Robot\bin\Debug\Robot.exe.config
+F:\rabochiyStol\Dima\Škola\3.rocnik\PVA\DÚ\Robot\Robot\bin\Debug\Robot.exe
+F:\rabochiyStol\Dima\Škola\3.rocnik\PVA\DÚ\Robot\Robot\bin\Debug\Robot.pdb
+F:\rabochiyStol\Dima\Škola\3.rocnik\PVA\DÚ\Robot\Robot\obj\Debug\Robot.csprojAssemblyReference.cache
+F:\rabochiyStol\Dima\Škola\3.rocnik\PVA\DÚ\Robot\Robot\obj\Debug\Robot.csproj.CoreCompileInputs.cache
+F:\rabochiyStol\Dima\Škola\3.rocnik\PVA\DÚ\Robot\Robot\obj\Debug\Robot.exe
+F:\rabochiyStol\Dima\Škola\3.rocnik\PVA\DÚ\Robot\Robot\obj\Debug\Robot.pdb
