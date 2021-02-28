@@ -48,7 +48,7 @@ namespace Robot
             char[,] CharRoboMap = new char[xM, yM];
             while (2 + 2 == 4)
             {
-                if (y + 1 <= yM|| CharRoboMap[x, y + 1] != 'X')
+                if (y + 1 < yM || CharRoboMap[x, y + 1] != 'X')
                 {
                     
                         if (CharMap[x, y + 1] == '0')
@@ -67,9 +67,65 @@ namespace Robot
                             break;
                         }
                 }
-                else
+                else if(x + 1 < xM || CharRoboMap[x + 1, y] != 'X')
+                {
+                    if (CharMap[x + 1, y] == '0')
+                    {
+                        CharRoboMap[x + 1, y] = 'X';
+                        x++;
+                        RoadOrder.Add($@"[{x},{y}], ");
+                    }
+                    else if (CharMap[x + 1, y] == '1')
+                    {
+                        CharRoboMap[x + 1, y] = 'X';
+                    }
+                    else if (CharMap[x + 1, y] == 'K')
+                    {
+                        RoadOrder.Add($@"[{x},{y}].");
+                        break;
+                    }
+                }
+                else if (y - 1 > 0 || CharRoboMap[x, y - 1] != 'X')
                 {
 
+                    if (CharMap[x, y - 1] == '0')
+                    {
+                        CharRoboMap[x, y - 1] = 'X';
+                        y--;
+                        RoadOrder.Add($@"[{x},{y}], ");
+                    }
+                    else if (CharMap[x, y - 1] == '1')
+                    {
+                        CharRoboMap[x, y - 1] = 'X';
+                    }
+                    else if (CharMap[x, y - 1] == 'K')
+                    {
+                        RoadOrder.Add($@"[{x},{y}].");
+                        break;
+                    }
+                }
+                else if (x - 1 > 0 || CharRoboMap[x - 1, y] != 'X')
+                {
+
+                    if (CharMap[x - 1, y] == '0')
+                    {
+                        CharRoboMap[x - 1, y] = 'X';
+                        x--;
+                        RoadOrder.Add($@"[{x},{y}], ");
+                    }
+                    else if (CharMap[x - 1, y] == '1')
+                    {
+                        CharRoboMap[x - 1, y] = 'X';
+                    }
+                    else if (CharMap[x - 1, y] == 'K')
+                    {
+                        RoadOrder.Add($@"[{x},{y}].");
+                        break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Konec neni");
                 }
             }
         }   
